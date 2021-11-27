@@ -1,0 +1,1432 @@
+monastery
+ 11 
+Outside the Monastery
+You are standing on the south side of a tall building, constructed of crumbling stone.  
+ 2 
+go north
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+The Monastery Door
+You approach the door of the building and attempt to open it.  It is locked.  To the east is a low wall with a gate in it.
+ 1 
+go south
+
+ 0 
+ 3 
+go east
+
+ 0 
+ 11 
+faendor
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+The Graveyard
+You come to a gloomy courtyard inside low walls of stone.  A lone dead tree leans precariously over one wall.  There are what appear to be tombstones scattered about, in various states of decay.
+ 2 
+go west
+
+ 0 
+ 4 
+examine tombstones
+
+ 0 
+ 5 
+go north
+
+ 0 
+ 10 
+use
+scraper
+ 3 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+Examine Tombstones
+You bend down to examine the tombstones.  You can't read anything on them because they are caked with mud and moss.  You'd scrape it off, but you don't want to get your fingernails dirty.
+ 3 
+back
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+North Side
+You come around to the north side of the building.  There you find a man sitting on a stool painting a landscape of the picturesque valley.  Actually, it's not all that picturesque, but oh well.
+ 6 
+go west
+
+ 0 
+ 9 
+use
+blue potion
+ 4 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+Storeroom
+You come to a door and are surprised to find it unlocked.  Once inside, you realize that this room must be a storeroom of some sort - bottles and jars line the walls.  On a shelf are some interesting looking BOTTLES of blue potion.
+ 7 
+examine bottles
+blue potion
+ 1 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+Get blue potion
+You got a bottle of blue potion!  If only you knew what it did...
+ 8 
+back
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+After getting blue bottle
+You walk outside and head back east... [type "go" to continue]
+ 5 
+go
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+sleeping artist
+You casually slide the potion within the reach of the artist.  He reflexively grabs it and drinks it all before you can stop him.  He proceeds to fall asleep.  You steal his paint scraper just for the fun of it.  [type "go" to continue]
+ 3 
+go
+scraper
+ 1 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+Read the tombstones
+You scrape the moss and dirt off one of the tombstones.  You read, "Hic Jacet Marcus Tuulius Pompus - who cast too vigorous a faendor spell and was struck in the head with the door.  RIP"
+ 3 
+back
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+faendor monastery door
+As you chant the ancient word of power, the door swings open and you feel yourself drawn inward, into the darkness.  THE END (for now!)
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 

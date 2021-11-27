@@ -1,0 +1,88 @@
+[Root]
+Most Recent Package=Moles Setup Package 1
+
+
+[Package|Moles Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles Installer
+
+[Package|Moles Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Moles Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Moles Setup Package 1|Files Found]
+
+[Package|Moles Setup Package 1|Files Released]
+
+[Package|Moles Setup Package 1|Missing Dependency Information]
+
+[Package|Moles Setup Package 1|Out-of-Date Dependency Information]
+
+[Package|Moles Setup Package 1|Files Added]
+
+[Package|Moles Setup Package 1|Files Removed]
+
+[Package|Moles Setup Package 1|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Moles Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Moles Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Moles Setup Package 1|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Moles Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles.exe=No
+
+[Package|Moles Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Moles
+
+[Package|Moles Setup Package 1|IconGroups]
+Group0=Moles Installer
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Moles Setup Package 1|Moles Installer]
+Icon1=Moles.exe
+Title1=Moles Installer
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Moles Setup Package 1|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles Installer
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles Installer\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles Installer\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\BensVB\Ben1\Moles\Moles Installer\Moles.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz

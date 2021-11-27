@@ -1,0 +1,292 @@
+
+T:New Language Wizard
+I:This wizard allows you to quickly create new languages.
+
+'Question A
+Q:What is the name of your language?
+A:TEXT
+
+'Question B
+Q:The names of the speakers of $A can be formed in different ways.  What type of names are most appropriate?
+C:General names
+C:Animal totems (e.g., "Eagle Striking")
+C:Celestial names (e.g., "Star Watcher")
+C:Warrior/monster names (e.g., "Foe Hammer")
+A:LIST
+
+'Vocabulary
+W:NEWCOL
+W:LOCATION= 1
+W:HEADING=Vocabulary
+W:ANNOTATION=
+W:ACTIVETAB= 0
+
+W1:ROWS=arrow|battle|bear-like|bearer|beloved|bitter|blessed|brave|brightness|chief|compassionate|constant|counselor|crown|defender|desired|divine|dweller|eagle-like|earnest|earth|falcon-like|famous|farmer|father|fighter|flowering|forest|fortunate|fox-like|free|gate|gift|giver|God|guardian|hallowed|hammer|happy|harvester|healer|helper|home|horse|industrious|keeper|laughing|laurel|leader|lily|lion-like|lover|loyal|maid|man|manly|mighty|noble|northern|patriotic|peaceful|pearl|people|powerful|praiseworthy|prayerful|protecting|protector|pure|ready|rock|rose|ruler|runner|sharp|shining|small|smith|son|spear|staff|steward|stranger|strong|strong-willed|stronghold|swift|sword|traveler|twin|valiant|victorious|war's|warrior|wealthy|wise|wolf|wolf-like|worthy|young
+W2:ROWS=badger|bear|beaver|bison|boar|buffalo|buzzard|caribou|coasting|condor|cormorant|cougar|coyote|crow|dancing|deer|diving|dog|drinking|eagle|falcon|ferret|floating|fox|gliding|goat|hare|harrier|hawk|heron|horse|jaguar|jumping|kestrel|kingfisher|leaping|limping|lion|lizard|moose|mouse|mule|muskrat|osprey|otter|owl|ox|panther|petrel|porcupine|possum|pouncing|pronghorn|puma|racoon|raven|running|sandpiper|scampering|scouting|skunk|soaring|sparrow|sparrowhawk|springing|sprinting|stalking|striking|swallow|swift|swooping|thrush|vole|vulture|walking|watching|wildcat|wolf|wolverine|wren
+W3:ROWS=brother|celestial|cloud|comet|daughter|dawn|dusk|evening star|father|king|lightning|listener|lover|midday|midnight|moon|moonlight|morning star|mother|noble|prince|princess|queen|rain|rainbow|ruler|sister|sky|son|star|starcloud|stormcloud|sun|sunlight|thunder|traveler|visitor|voyager|wanderer|warrior|watcher|windspirit
+W4:ROWS=arm|axe|beast|beater|biter|blood|chewer|cleaver|crawler|crusher|cutter|death|demon|dirk|dog|dragger|dragon|drinker|dwarf|ear|earth|eater|elf|eye|face|finger|foe|foot|ghoul|goblin|hair|halfling|hammer|hand|hater|head|hobgoblin|horse|impaler|kicker|killer|knife|lover|man|mangler|monger|moon|mucus|nail|nose|orc|poker|punisher|rat|ripper|sheep|shooter|skull|slicer|smasher|speaker|stomper|sword|throttler|thrower|toe|tooth|torturer|walker|wraith
+
+'Formula
+W:NEWCOL
+W:LOCATION= 4 
+W:HEADING=Formula
+W:ANNOTATION=
+W:ACTIVETAB= 1 
+W:GENWORDCNT= 100 
+
+W1:GENPATTERNS=A|A+A|A+N|A+N|A+N|N+N
+W1:GENSYM=0
+W1:GENSYM=Adjective
+W1:GENSYM=bear-like|beloved|bitter|blessed|brave|chief|compassionate|constant|desired|divine|eagle-like|earnest|falcon-like|famous|flowering|fortunate|fox-like|free|hallowed|happy|industrious|laughing|lion-like|loyal|manly|mighty|noble|northern|patriotic|peaceful|powerful|praiseworthy|prayerful|protecting|pure|ready|sharp|shining|small|strong|strong-willed|swift|valiant|victorious|war's|wealthy|wise|wolf-like|worthy|young
+W1:GENSYM=13
+W1:GENSYM=Noun
+W1:GENSYM=arrow|battle|bearer|brightness|counselor|crown|defender|dweller|earth|farmer|father|fighter|forest|gate|gift|giver|God|guardian|hammer|harvester|healer|helper|home|horse|keeper|laurel|leader|lily|lover|maid|man|pearl|people|protector|rock|rose|ruler|runner|smith|son|spear|staff|steward|stranger|stronghold|sword|traveler|twin|warrior|wolf
+W1:GENSYM=26
+W1:GENSYM=
+W1:GENSYM=
+W1:GENSYM=-1
+W1:GENSYM=
+W1:GENSYM=
+W1:GENSYM=-1
+W1:GENSYM=
+W1:GENSYM=
+W1:GENSYM=-1
+W1:GENSYM=
+W1:GENSYM=
+
+W2:GENPATTERNS=A+M|B+S
+W2:GENSYM=12
+W2:GENSYM=Moving
+W2:GENSYM=dancing|drinking|jumping|leaping|limping|pouncing|running|scampering|springing|sprinting|stalking|walking|watching
+W2:GENSYM=0
+W2:GENSYM=Animal
+W2:GENSYM=badger|bear|beaver|bison|boar|buffalo|caribou|cougar|coyote|deer|dog|ferret|fox|goat|hare|horse|jaguar|lion|lizard|moose|mouse|mule|muskrat|otter|ox|panther|porcupine|possum|pronghorn|puma|racoon|skunk|vole|wildcat|wolf|wolverine
+W2:GENSYM=18
+W2:GENSYM=Soaring
+W2:GENSYM=coasting|diving|drinking|floating|gliding|scouting|soaring|swooping|walking|watching
+W2:GENSYM=1
+W2:GENSYM=Bird
+W2:GENSYM=buzzard|condor|cormorant|crow|eagle|falcon|harrier|hawk|heron|kestrel|kingfisher|osprey|owl|petrel|raven|sandpiper|sparrow|sparrowhawk|swallow|swift|thrush|vulture|wren
+W2:GENSYM=-1
+W2:GENSYM=
+W2:GENSYM=
+W2:GENSYM=-1
+W2:GENSYM=
+W2:GENSYM=
+
+W3:GENPATTERNS=S+P
+W3:GENSYM=18
+W3:GENSYM=Sky-feature
+W3:GENSYM=celestial|cloud|comet|dawn|dusk|evening star|lightning|midday|midnight|moon|moonlight|morning star|rain|rainbow|sky|star|starcloud|stormcloud|sun|sunlight|thunder|windspirit
+W3:GENSYM=15
+W3:GENSYM=Person
+W3:GENSYM=brother|daughter|father|king|listener|lover|mother|noble|prince|princess|queen|ruler|sister|son|traveler|visitor|voyager|wanderer|warrior|watcher
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+
+W4:GENPATTERNS=B+D|B+T|C+B|C+D|C+T|T+D
+W4:GENSYM=2
+W4:GENSYM=Creature
+W4:GENSYM=foe|beast|man|orc|goblin|halfling|hobgoblin|elf|dwarf|ghoul|wraith|demon|dragon|horse|rat|dog|death|worm
+W4:GENSYM=1
+W4:GENSYM=Bodypart
+W4:GENSYM=head|face|skull|hair|ear|nose|tooth|eye|arm|hand|finger|foot|toe|nail|blood|mucus
+W4:GENSYM=3
+W4:GENSYM=Doer
+W4:GENSYM=beater|biter|chewer|cleaver|crawler|crusher|cutter|dragger|drinker|eater|hater|impaler|kicker|killer|lover|mangler|monger|poker|punisher|ripper|shooter|slicer|smasher|stomper|throttler|thrower|torturer|walker
+W4:GENSYM=19
+W4:GENSYM=Tool
+W4:GENSYM=axe|blade|hammer|knife|sword
+W4:GENSYM=-1
+W4:GENSYM=
+W4:GENSYM=
+W4:GENSYM=-1
+W4:GENSYM=
+W4:GENSYM=
+
+
+'Names
+W:NEWCOL
+W:LOCATION= 5 
+W:HEADING=Names
+W:ANNOTATION=
+W:ACTIVETAB= 3 
+W:FMLFORMULAS= 4 
+W:FMLLABELS= 1 
+W:FMLWORDS= 2 
+W:FMLPASTERESULTS= 0 
+
+'Name Etymologies
+W:NEWCOL
+W:LOCATION= 6
+W:HEADING=Name Etymologies
+W:ANNOTATION=
+W:ACTIVETAB= 3 
+W:FMLFORMULAS= 4 
+W:FMLLABELS= 1 
+W:FMLWORDS= 2 
+W:FMLPASTERESULTS= 1 
+
+'Question C
+Q:Next, you define how to generate words, by specifying the possible patterns.  For instance, a Polynesian language like Hawaiian might have only a few vowels (V) and consonants (C), with words following these patterns:  CV, CVCV, CVCVCV, etc.  You can create as elaborate a system of patterns as you want, but to start with you might want to try one of the following predefined patterns.  Once this wizard is complete, you can then edit the pattern by double clicking on the column marked $A.  What style language do you want to create?
+C:Finnish
+C:Greek (Ancient)
+C:Latin
+C:Spanish
+C:Swahili
+C:Welsh
+A:LIST
+
+W:NEWCOL
+W:LOCATION=2
+W:HEADING=$A
+W:ANNOTATION=This language was generated by the New Language Wizard to resemble $C.
+W:ACTIVETAB= 1 
+W:GENWORDCNT= 100
+W1:GENPATTERNS=V|CV|W|CW|VF|CVF|WF|CWF|VCV|WCW|CVCV|CWCW|VCVF|WCWF|CVBVF|CVBV|CWBWF|VCV|WCW|CVCV|CWCW|VCVF|WCWF|CVBVF|CWBWF|CVBV|CWBW|VCV|WCW|CVCV|CWCW|VCVF|WCWF|CVBVF|CWBWF|CVBV|CWBW|VCV|WCW|CVCV|CWCW|CVBV|CWBW|VCVF|WCWF|CVBVF|CWBWF|CVBV|CWBW|VCV|WCW|CVCV|CVBV|CVCV|CVBV|CWCW|CWCW|CWBW|CWBW|CVCVF|CVCVF|CWCWF|CWCWF|CVBVF|CVBVF|CWBWF|CWBWF|VCVF|VCVF|WCWF|WCWF|VBVF|VBVF|VBVF|VBV|VBV|VBV|WBW|WBW|WBW|WBWF|WBWF|WBWF|CVBVF|CWBWF|CWBW|CVBVCVF|CVBVCV|CWBWCWF|CWBWCW|CVCVBV|CWCWBW|CVCVBVF|CWCWBWF|CVBVBV|CVBVBVF|CWBWBW|CWBWBWF|VBVCVF|VBVCV|WBWCW|WBWCWF|VBVBVF|WBWBWF|VBVBV|WBWBW|CVCVBVCV|CWCWBWCW|CVCVCVBV|CWCWCWBW|CVCVBVCVF|CWCWBWCWF|CVCVCVBVF|CWCWCWBWF|CVCVBVBV|CWCWBWBW|CVCVBVBVF|CWCWBWBWF|CVBVCVCV|CWBWCWCW|CVBVCVCVF|CWBWCWCWF|CVBVCVBV|CWBWCWBW|CVBVCVBVF|CWBWCWBWF|CVBVBVCV|CWBWBWCW|CVBVBVCVF|CWBWBWCWF|CVBVBVBV|CWBWBWBW|CVBVBVBVF|CWBWBWBWF|VCVCVCV|VCVCVCVF|WCWCWCW|WCWCWCWF|VCVCVBV|VCVCVBVF|WCWCWBW|WCWCWBWF|VCVBVCV|VCVBVCVF|WCWBWCW|WCWBWCWF|VCVBVBV|VCVBVBVF|WCWBWBW|WCWBWBWF|VBVCVCV|VBVCVCVF|WBWCWCW|WBWCWCWF|VBVCVBV|VBVCVBVF|WBWCWBW|WBWCWBF|VBVBVCV|VBVBVCVF|WBWBWCW|WBWBWCWF|VBVBVBV|VBVBVBVF|WBWBWBW|WBWBWBWF
+W1:GENSYM=21
+W1:GENSYM=Vowel 1
+W1:GENSYM=a|e|i|o|u|a|e|i|o|u|a|e|i|o|u|a|e|i|o|u|aa|ee|ii|oo|uu|ie|uo|ai|ei|oi|ui|au|eu|ou|iu|aa|ee|ii|oo|uu|a|e|i|o|u|a|a|a|a|e|e|e|e|i|i|i|i
+W1:GENSYM=22
+W1:GENSYM=Vowel 2
+W1:GENSYM=a:|e|i|o:|y|a:|e|i|o:|y|a:|e|i|o:|y|a:|e|i|o:|y|a:a:|ee|ii|o:o:|yy|a:a:|ee|ii|o:o:|yo:|yi|a:i|o:i|ey|a:y|o:y|a:|e|i|o:|y|e|e|e|e|i|i|i
+W1:GENSYM=2
+W1:GENSYM=Cons.
+W1:GENSYM=d|f|g|h|h|h|j|j|k|k|k|k|k|l|l|l|m|m|n|n|p|p|p|p|p|r|r|s|s|s|s|t|t|t|t|v|v|v|v
+W1:GENSYM=1
+W1:GENSYM=Biliterals
+W1:GENSYM=lk|lk|lt|lt|lt|lp|lp|ls|rk|rk|rt|rt|rp|rp|rs|nk|nk|nt|nt|ns|ns|mp|mp|mp|mp|hr|hr|ks|ks|ks|hd|hd|ts|ts|sk|sk|sk|sk|sk|sv|tk|rh|rj|rj|rj|rj|rj|lm|lm|lm|lm|lm|rm|st|rn|hj|ht|ht|nh|ll|ll|ll|ll|mm|mm|mm|nn|nn|pp|pp|pp|rr|ss|tt|tt|kk|kk|kk|kk|kk|lj|tj|hj|ng|nd|rv|pt
+W1:GENSYM=5
+W1:GENSYM=Final Cons.
+W1:GENSYM=l|n|r|s|t|r|n|n|s|t|t|l
+W1:GENSYM=-1
+W1:GENSYM=
+W1:GENSYM=
+
+W2:GENPATTERNS=VCVCF|VCVBF|VBVCF|CVCF|CVCF|CVBF|CVBF|CVF|CV|CVCVCF|CVCVBF|CVBVCF|IVCF|IVCF|IVBF|IVCVCF|IVCVBF|IVBVCF|IVF|CVF|VCF|VCF|VBVF|VBF|VCF|CVCF|CVCVF|CVCF|VCF|VCF|VCVCF
+W2:GENSYM=2
+W2:GENSYM=Consonants
+W2:GENSYM=b|b|g|g|g|d|d|d|d|z|th|th|th|k|k|k|k|l|l|l|l|l|m|m|m|m|m|n|n|n|n|n|n|ch|ch|ch|x|p|p|p|p|p|r|r|r|r|r|r|s|s|s|s|s|s|s|s|t|t|t|t|t|t|ph|ph|ph|ps
+W2:GENSYM=21
+W2:GENSYM=Vowels
+W2:GENSYM=a|a|a|a|a|a/|e|e|e|e|e/|e/|e/|i|i|i|i/|o|o|o|o|o|o|w|w|w|u|u/|ai|ai|ai|ei|ei|ei|oi|au|eu|eu|ou|ou|a|a|a|a|a|o|o|o|o|o|o|e|e|e|e|e/|e/|e/|i|i|i|w|w|w|i/|u|u/|a/
+W2:GENSYM=5
+W2:GENSYM=Finals
+W2:GENSYM=a/|os|os|os|ion|on|e/|ia|ia|ei|w|e/s|a/s|ios|ios|os|e/|e/|os|omai|iwn|is|omi|omi|omai|os|e/
+W2:GENSYM=1
+W2:GENSYM=Biliterals
+W2:GENSYM=ng|ll|lph|thl|sth|sch|rt|ndr|nthr|nt|thn|kt|mm|rg|st|st|st|st|sp|kn|rch|rx|phr|rb|lt|gn|sk|sk|sk|xp|tt|nch|lp|mp|mp|nn|nn|ll|nn|ll|ll|mm|mm|rm|rch|chth|tr|pp|rd|mb|nth
+W2:GENSYM=8
+W2:GENSYM=Initials
+W2:GENSYM=kr|bl|h|gr|kl|pl|pl|pr|st|sph|tr|phth|chr|kl|chr
+W2:GENSYM=-1
+W2:GENSYM=
+W2:GENSYM=
+
+W3:GENPATTERNS=CVCF|CVBF|CF|VCV|VCV|VCVCV|VCVCV|VCF|VCVCF|VCVCF|VBV|VBV|VBF|CVCF|CVCF|CVBF|CVBF|CF|CVCF|CVCF|CVBF|CVBF|CF|VCF|VCF|VCF|CVCF|CVCF|CVCF|CVCVCF|CVCVCF|VCVCVCF|VCVCVCF|VBF|VBF|CVCF|CVBF|CVCF|CVBF
+W3:GENSYM=21
+W3:GENSYM=Vowels
+W3:GENSYM=a|a|a|a|a|e|e|e|e|i|i|i|i|i|o|o|o|o|u|u|u|a|a|e|e|i|i|o|o|u|u|ae|oe|ei|au|au|eu
+W3:GENSYM=2
+W3:GENSYM=Consonant
+W3:GENSYM=b|c|c|c|c|c|d|d|d|d|d|f|f|f|g|h|h|j|l|l|l|m|m|m|m|n|n|n|n|p|p|p|p|qu|r|r|r|r|s|s|s|s|s|t|t|t|v|v|v|x|qu|qu
+W3:GENSYM=1
+W3:GENSYM=Biliterals
+W3:GENSYM=lp|lt|lc|lb|ld|lg|lv|ln|mp|nt|nc|mb|nd|ng|nf|ns|nx|nqu|nv|pl|cl|bl|dl|gl|pr|tr|cr|br|dr|gr|fl|fr|pt|sp|st|sc|str|squ|bs|bt|gn|rp|rt|rc|rb|rd|rg|rv|rn|rx|rm|rs|dv|dm|dj|xp|xpl|xh|xt|xc|xtr|xs|bb|cc|dd|ff|gg|ll|mm|nn|mm|nn|ll|pp|pp|rr|rr|ss|ss|ss|ss|ss|tt|tt|tt|tt
+W3:GENSYM=5
+W3:GENSYM=Finals
+W3:GENSYM=a|us|um|is|ere|ere|ir|ari|eri|i|iri|are|e|ans|ens|iens|ar|or|ir|er|ur|atio|atio|as|as|is|is|os|am|em|alis|alis|alis|alia|ix|ex|ator|etor|itor|atura|ium|ido|ulum|alum|ilum|amen|rum|ulus|olus|iculus|itas|itudo|ax|idus|ilis|ilis|ilis|abilis|eus|inus|ius|icus|ilis|alis|alis|aris|aris|aris|arius|anus|inus|ivus|ensis|osus|osus|ianus|olus|ellus|ernus|ascare|iscareescareatim|atus|atus|atus|iter|iter|iter
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+W3:GENSYM=-1
+W3:GENSYM=
+W3:GENSYM=
+
+W4:GENPATTERNS=V|CV|CV|CD|VC|CVC|CDC|CV|CV|VCV|VCV|VCV|VCF|VCF|VCF|CDCF|CDCF|CDCF|VCF|VCF|CDCF|CDCF|CVCF|CVCF|DCF|CVCF|CVCF|CVCF|CVCF|CDCF|VCVCF|VCVCF|VBVCF|CVCF|VBVCF|VCVCF|DBVCF|DCVCF|VBDCF|VCDCF|CVCVCF|CVCVCF|CVCVCF|CVCVCF|CVCF|CVCVCF|CVCVCF|CVCVCF|CDCVCF|CVCVCF|CVBVCF|CVCDCF
+W4:GENSYM=21
+W4:GENSYM=Vowels
+W4:GENSYM=a|a|a|a|a|a|a|a|a|a|e|e|e|e|e|e|e|e|i|i|i|i|i|i|o|o|o|o|o|o|o|o|o|u|u|u
+W4:GENSYM=3
+W4:GENSYM=Diphthongs
+W4:GENSYM=io|io|io|io|io|io|ia|ia|ia|ia|ie|ie|ie|ua|ua|ai|ei|ui|eu|oi
+W4:GENSYM=2
+W4:GENSYM=Consonants
+W4:GENSYM=p|b|t|d|c|g|f|v|s|j|y|ch|m|n|ny|l|r|qu|z|pl|pr|bl|br|tr|dr|cr|cl|gl|gr|fl|fr|sl|m|n|ll|rr|r|s|s|s|s|t|t|z|p|p|c|c|v|f|g|b|d|d|d|j|y|ch|ny|qu|s|s|s|s|t|t|t|t|t|d|d|d|d|l|n|n|n|n|m|m|m|r|r|r|r|r|r|ch|j|j|ch
+W4:GENSYM=5
+W4:GENSYM=Finals
+W4:GENSYM=o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|o|a|a|a|a|a|a|a|a|a|a|a|a|a|a|a|e|er|ir|ado|ada|acion|anta|ienta|iento|amente|encia|ico|ica|al
+W4:GENSYM=1
+W4:GENSYM=Biliterals
+W4:GENSYM=mp|mp|mp|mp|mb|nt|nt|nd|nc|nc|nc|nc|ng|ns|ngu|sp|st|st|st|st|st|st|sc|sl|rn|rp|rt|rt|rt|rt|rc|rg|rm|zc|zg|pr|pl|br|bl|tr|tl|dr|gl|gr|fl|fr|nch|nr|ct|ct|ct|ct|gu|pt|lt|lg|ld|lp|ls|lz|lch|fr|ft
+W4:GENSYM=-1
+W4:GENSYM=
+W4:GENSYM=
+
+W5:GENPATTERNS=V|CV|BV|VCV|VBV|CVCV|CVBV|BVCV|BVBV|CVCV|CVBV|BVCV|BVBV|CVCV|CVBV|BVCV|BVBV|VCVCV|VCVBV|VBVCV|CVCVCV|CVBVCV|CVCVBV|BVCVCV|CVCVCV|CVBVCV|CVCVBV|BVCVCV|CVCVCV|CVCVBV|CVBVCV|BVCVCV|CVCVCV|CVCVBV|CVBVCV|BVCVCV|VCVCV|VCVBV|CBVCV|VCVCV|VCVBV|VBVCV|VCVCV|VCVBV|VBVCV|VBVBV|CVBVBV|BVCVBV|BVBVCV|BVBVBV|CVCVCVCV|VCVCVCV|CVCVCVBV|CVCVBVCV|CVBVCVCV|BVCVCVCV|VCVCVBV|VCVBVCV|VBVCVCV
+W5:GENWORDCNT= 100 
+W5:GENSYM=2
+W5:GENSYM=Cons.
+W5:GENSYM=b|b|b|ch|ch|ch|ch|d|f|f|f|g|g|h|h|h|h|j|j|j|k|k|k|k|k|k|l|l|m|m|m|m|m|m|n|n|n|n|n|p|p|p|p|p|r|s|s|s|s|s|t|t|t|t|t|v|v|w|w|w|y|z|z|ch|sh|sh|th|dh|kh|gh
+W5:GENSYM=21
+W5:GENSYM=Vowels
+W5:GENSYM=a|e|i|o|u
+W5:GENSYM=1
+W5:GENSYM=Biliterals
+W5:GENSYM=vy|nd|nd|nd|nd|ng|ng|mb|mb|mb|bw|bw|chw|nj|nj|nj|sw|mv|ngw|njw|kw|kw|kw|kw|kw|sk|ks|tw
+W5:GENSYM=-1
+W5:GENSYM=
+W5:GENSYM=
+W5:GENSYM=-1
+W5:GENSYM=
+W5:GENSYM=
+W5:GENSYM=-1
+W5:GENSYM=
+W5:GENSYM=
+
+W6:GENPATTERNS=CV|CV|CV|CVC|CVC|CVC|IVC|IVC|IVC|CVF|CVF|CVF|IVF|VCV|VMV|V|VF|VC|VCVC|VCVC|VMVC|VMVC|VCVF|VCVF|CVCV|CVCV|IVCV|IVCV|CVMV|CVMV|IVMV|CVCVC|CVCVC|CVCVC|CVCVC|CVCVC|IVCVC|IVCVC|IVCVC|CVMVC|CVMVC|CVMVC|CVCVF|CVCVF|CVCVF
+W6:GENSYM=2
+W6:GENSYM=Cons.
+W6:GENSYM=b|b|d|d|d|g|g|g|g|p|p|p|p|p|t|t|t|t|c|c|c|c|c|f|ff|l|ll|ll|m|m|m|n|n|r|s|s|s|th|th
+W6:GENSYM=21
+W6:GENSYM=Vowel
+W6:GENSYM=a|a|a|a|a|a|a|a|a|a|e|e|e|e|e|e|e|i|i|i|i|i|i|o|o|o|o|o|o|o|o|u|u|u|u|y|y|y|y|y|w|w|w|w|ai|ei|oi|ui|eu|au|ae|oe|ie|ia|io|wy|yw|a|a|a|a|e|e|e|e|e|i|i|i|i|i|o|o|o|o|o|o|o|u|u|u|u|y|y|y|y|w|w|w
+W6:GENSYM=8
+W6:GENSYM=Initial Cluster
+W6:GENSYM=h|h|h|h|spr|spl|str|stl|scr|scl|rh|rh|gw|gw|gw|hw|hw|cw|di|di|pt|ps|ts|cs|sp|st|sc|sff|pl|pr|tl|tr|cl|cr|bl|br|dl|dr|gl|gr|ffl|ffr|thl|thr|sn|sm|sl|sr|fl|fr|cn
+W6:GENSYM=5
+W6:GENSYM=Final Cluster
+W6:GENSYM=mp|nt|nd|nc|lp|lt|lc|lb|ld|lg|rp|rt|rc|rb|rd|rg|fft|llt|llc|llg|cht|sp|st|sc|sb|sd|sg|dd|ng|ch|ch|ch|ch|ch|dd|dd|dd|ng|ng|ng|mp|mb|mff|nt|nc|nd|ng|ns|nch|nth|ndd|lp|lt|lc|lb|ld|lg|lff|lth|ls|lch|lf|ldd|rp|rt|rc|rb|rd|rg|rff|rth|rs|rch|rf|rdd|st|sc|ddf|fg|fd|mn|ml|mr|nm|nn|ng|mm|nl|nr|ngl|ngr|rm|rn|rl|rng
+W6:GENSYM=12
+W6:GENSYM=Medial Cl.
+W6:GENSYM=spr|spl|str|stl|scr|scl|sbr|sbl|sdr|sdl|sgr|sgl|rh|rh|mpr|mpl|mbr|mbl|ntr|ntl|ndr|ndl|ncr|ncl|ngr|ngl|mp|mb|nt|nc|nd|ng|ns|nch|nsi|nth|ndd|mth|mdd|nf|nff|mff|mf|pp|pt|pth|ps|pch|pff|tt|ts|tch|tff|ct|cth|cs|cff|cc|bd|bg|bf|bdd|db|dd|dg|df|gb|gd|gg|gf|gdd|fft|sp|st|sc|sff|sth|sch|chp|cht|fg|ff|fdd|ddb|ddg|ddf|pn|pl|pr|tn|tm|tl|tr|cn|cm|cl|cr|bn|bm|bl|br|dn|dm|dl|dr|gn|gm|gl|gr|ffn|ffm|ffl|ffr|thn|thm|thl|thr|sn|sm|sl|sr|sng|chn|chm|chl|chr|fn|fm|fl|fr|ddn|ddm|ddl|ddr|mn|ml|mr|nm|nn|mm|nl|nr|ngl|ngr|lm|ln|ll|lr|rm|rn|rl|rr|ch|dd|ng|ch|ch|ch|dd|ng|dd|ng|dd|dd|dd|ng|ch|h
+W6:GENSYM=-1
+W6:GENSYM=
+W6:GENSYM=
+
+
+'Question D
+Q:You are now ready to generate your language.  If you want to change any of your answers, please press Back now.  Otherwise press Finish and the New Language Wizard will create $A for you.  The first column, Vocabulary, will contain the words used in names.  You should double-click on the second column, $A, to review the patterns for your language, then click Generate;  next spend some time moving the generated words to the meanings you think they signify (short forms are better, since they will be compounded to make names).  After doing this, then double-click on Formulas to generate naming formulas (e.g., "beaver+limping", "celestial+daughter").  Finally, click on Names to formulate the actual names for your language, and click on Name Etymologies to see the etymologies of your names.
+A:
+
+'Q:Question text
+'A:TEXT -- single line text box
+'A:BOX -- multiline text box
+'A:LIST -- list of choices
+'A: -- just the question text
+'C:add to choice list
+'J:jump based on last answer
+
+
+
+

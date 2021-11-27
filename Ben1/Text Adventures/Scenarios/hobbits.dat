@@ -1,0 +1,1432 @@
+hobbits
+ 11 
+1
+You find yourself on a barren slope, covered in loose stones and boulders.  The ground is carpeted in dry grasses, and there is a faint path running west and east.  to your north is a forest in the distance.  You don't want to go there, however, because you could get lost.  To your south is a stream and far, far off, a mountain range ringed with clouds.
+ 2 
+go east
+
+ 0 
+ 3 
+go west
+
+ 0 
+ 4 
+go south
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+2
+you follow the past east until you stumble upon an old bottle.  It looks like it once held something brownish and scummy, but it could just be dirt.  on one side there is some writing, but it's in some strange script you cant read.  hmm...looks very elvish.
+ 6 
+examine bottle
+bottle
+ 1 
+ 1 
+go east
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+3
+you follow the path west until it curves around and leads you to a round, green door in the hill.  strange.  you try the knob, but it's locked.
+ 1 
+go east
+
+ 0 
+ 8 
+use
+key
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you go off the path to the south, and walk to the stream.  the water looks clean enough, and your thirsty.  but you don't feel like getting wet.  you'd need something to carry the water in.  you also notice something shiny in the streambed, but you don't take much notice of it.
+ 1 
+go north
+
+ 0 
+ 7 
+use
+bottle
+ 4 
+ 9 
+examine shiny thing
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+Congrats!  you have an old bottle!
+ 4 
+back
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you take out your bottle and fill it with water.  you take a long drink, wipe the water from your mouth with the back of your hand, and refill the bottle.  refreshing. (type go to continue)
+ 4 
+go
+bottle of water
+ 1 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you stick the key into the lock and the door swings open...(type go to continue)
+ 10 
+go
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you fish the sparkly thing out of the water and dry it off.  it appears to be a key, though what it could be for, only the entwives would know!
+ 4 
+back
+key
+ 1 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you step inside the hill.  the low, dark room you stand in smells nice, like earth.  you sense that you really shouldn't be here, but you are, so oh well.  "Hello!" you call, "is there anyone here?"  then suddenly from a room off to the side, a very small person steps into view.  you know at a glance who it is.  "Samwise Gamgee?"  you gasp.  "Why, yes, that's my name.  And you are...AFGNCAAP*, correct?  would you like to hear the story of Frodo and the Magic Ring of Power?"  *Ageless Faceless Gender Neutral Culturaly Ambiguous Adventure Person
+ 11 
+hear story
+
+ 0 
+ 5 
+back
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+
+you agree to hear the story.  Biblo takes you into a sitting room and brings in some food: "Lembas all the way from Lorien!"  then he tells his story, but it is so long, you fall asleep.  THE END! (for now....)
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 
+ 0 
+
+
+ 0 

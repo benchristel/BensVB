@@ -1,0 +1,794 @@
+fifth element
+ 12 
+Temple of the Moon
+You stand shivering on the cold marble floor.  The room is dim, the only light coming from the full moon which shines through a hole broken in the roof, illuminating a stone pedastal.  This building was a temple once, but it has fallen into disrepair.  The stone walls are cracked in places, and long vines have taken over the chipped frescoes that once decorated the columns.  The room you are standing in is bounded on two sides by long colonnades which stretch from one end of the room to the other.  At the north end, there is a heavy-looking pair of double doors; at the other end, there is a dirty tapestry with words written on it which you cannot quite make out in the dim light.
+ 2 
+examine tapestry
+ 3 
+examine pedastal
+ 6 
+go east
+ 7 
+turn pedastal
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Unlit Tapestry
+This tapestry is in poor repair.  Running your finger over it, you feel the grime of long years that has worked its way into the fabric.  You squint to make out what is written there, but the wan moonlight reveals only blurred shapes.  Nothing more.
+ 1 
+go back
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Pedastal
+This looks like an ordinary stone pedastal.  It is old, like everything else here.
+ 1 
+go back
+ 4 
+master
+ 7 
+turn pedastal
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Mirror on Pedastal
+As you speak the word of summoning, the mirror appears in your hand.  You place it on the pedastal, and the light of the moon is reflected onto the tapestry.
+ 1 
+go back
+ 5 
+examine tapestry
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Lit Tapestry
+TURN THE PEDASTAL, AND THE DOOR WILL OPEN.
+ 1 
+go back
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Mirror of the Moon
+You find an ornate gold-rimmed mirror resting on an altar.  On the back these words are written: EM OCLLAH SIDNAR ET SAM KAEP SNOOM EHT FORORRIM EHT MAI
+ 1 
+go west
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+The Door Opens
+You grip the pedastal with both hands and twist it.  The great door swings slowly open.
+ 8 
+go north
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Outside the doors
+You stand outside the Temple of the Moon.  The dim light of dawn is glowing in the eastern sky.  You are in a forest clearing.  Paths lead north, west, and east.
+ 12 
+go west
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+The Crypt
+You walk into a dank, musty room and realize that you are in a crypt of the dead.  On the right, the wall is lined with shelves holding many skulls.  A stairway leads down into the darkness.
+ 10 
+examine skulls
+ 11 
+go down
+ 8 
+go east
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+The wall of Skulls
+As you bend down to examine the skulls, you hear a booming voice which seems to come from all around you.  It says, "TOUCH NOT THE SEVENTH STONE IF YOU WISH TO REMAIN AMONG THE LIVING!"
+ 9 
+go back
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+The Druid's Tomb
+The chamber into which you step has a very different feel.  The walls are covered with lively paintings of trees and the ocean.  You brush the dust off of a stone sarcophagus which rests in the center of the room.  Carved writing on the top reads, "Here rests the body of the Druid Tyrann, born 1254, died 1836.  He was the original maker of the Elixir of Life."
+ 9 
+go up
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+Outside the Crypt
+You come to a small stone building with a large bronze door.  You push the door and are surprised to see that it is unlatched. PRESS ENTER TO CONTINUE
+ 9 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+
+ 0 
+

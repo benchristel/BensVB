@@ -1,0 +1,3 @@
+VBGROUP 5.0
+StartupProject=..\Text Adventures\AdventureEditor.vbp
+Project=Project2.vbp
